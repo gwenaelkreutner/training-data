@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06T23:36:05.186640",
+  "generated_at": "2026-05-07T01:24:11.446149",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -866,29 +866,6 @@
           "zone": 1,
           "training_load": 7.074377,
           "decoupling": -17.451584
-        }
-      ]
-    },
-    {
-      "activity_id": "i142268868",
-      "date": "2026-04-22",
-      "type": "Ride",
-      "name": "Courzieu Cyclisme",
-      "interval_summary": [
-        "1x 1h48m 117bpm"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2
-        },
-        {
-          "type": "WORK",
-          "label": "6516s@117bpm",
-          "duration_secs": 6516,
-          "avg_hr": 117,
-          "max_hr": 155,
-          "zone": 1
         }
       ]
     },
