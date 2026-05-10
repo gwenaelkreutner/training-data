@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10T09:04:16.248850",
+  "generated_at": "2026-05-10T10:38:18.439606",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -1212,6 +1212,25 @@
           "zone": 1,
           "training_load": 21.46507,
           "decoupling": 1.5336417
+        }
+      ]
+    },
+    {
+      "activity_id": "i146911436",
+      "date": "2026-05-09",
+      "type": "Ride",
+      "name": "Selonnet Cyclisme",
+      "interval_summary": [
+        "1x 7h14m 116bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "26093s@116bpm",
+          "duration_secs": 26093,
+          "avg_hr": 116,
+          "max_hr": 170,
+          "zone": 1
         }
       ]
     }
