@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T17:15:44.003172",
+  "generated_at": "2026-05-15T19:06:00.096461",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -1539,6 +1539,27 @@
           "zone": 3,
           "training_load": 0.51790196,
           "decoupling": 24.719265
+        }
+      ]
+    },
+    {
+      "activity_id": "i148588521",
+      "date": "2026-05-14",
+      "type": "Ride",
+      "name": "La Tour-de-Salvagny Cyclisme sur route",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2089,
+          "avg_power": 93,
+          "max_power": 644,
+          "avg_hr": 145,
+          "max_hr": 174,
+          "avg_cadence": 54.302605,
+          "zone": 1,
+          "training_load": 11.517754,
+          "decoupling": 0.8191401
         }
       ]
     }
