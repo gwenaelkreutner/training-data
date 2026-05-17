@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T18:45:03.964982",
+  "generated_at": "2026-05-17T19:55:46.334719",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -1521,6 +1521,54 @@
           "zone": 1,
           "training_load": 18.704535,
           "decoupling": -22.505592
+        }
+      ]
+    },
+    {
+      "activity_id": "i149163560",
+      "date": "2026-05-17",
+      "type": "Ride",
+      "name": "Valence Cyclisme sur route",
+      "interval_summary": [
+        "1x 2m38s 264w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 16073,
+          "avg_power": 71,
+          "max_power": 610,
+          "avg_hr": 95,
+          "max_hr": 171,
+          "avg_cadence": 60.486473,
+          "zone": 1,
+          "training_load": 83.0082,
+          "decoupling": -20.547262
+        },
+        {
+          "type": "WORK",
+          "label": "158s@264w101rpm",
+          "duration_secs": 158,
+          "avg_power": 264,
+          "max_power": 379,
+          "avg_hr": 169,
+          "max_hr": 173,
+          "avg_cadence": 101.24051,
+          "zone": 4,
+          "training_load": 3.8043995,
+          "decoupling": -4.156062
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 17059,
+          "avg_power": 41,
+          "max_power": 607,
+          "avg_hr": 95,
+          "max_hr": 175,
+          "avg_cadence": 45.28073,
+          "zone": 1,
+          "training_load": 57.21289,
+          "decoupling": 2.382167
         }
       ]
     }
