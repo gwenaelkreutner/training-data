@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T04:20:49.386875",
+  "generated_at": "2026-06-01T09:41:53.096629",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -720,6 +720,25 @@
           "duration_secs": 16490,
           "avg_hr": 97,
           "max_hr": 170,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i153102269",
+      "date": "2026-05-31",
+      "type": "Ride",
+      "name": "Beaufort Cyclisme",
+      "interval_summary": [
+        "1x 8h15m 112bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "29715s@112bpm",
+          "duration_secs": 29715,
+          "avg_hr": 112,
+          "max_hr": 172,
           "zone": 1
         }
       ]
