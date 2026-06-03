@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-03T15:17:36.001452",
+  "generated_at": "2026-06-03T19:08:19.280112",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -434,6 +434,22 @@
           "zone": 1,
           "training_load": 53.94416,
           "decoupling": 14.138516
+        }
+      ]
+    },
+    {
+      "activity_id": "i153985526",
+      "date": "2026-06-03",
+      "type": "VirtualRide",
+      "name": "Cyclisme",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4,
+          "avg_hr": 52,
+          "max_hr": 53,
+          "zone": 1
         }
       ]
     }
