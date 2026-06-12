@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-12T22:09:42.480352",
+  "generated_at": "2026-06-12T23:52:11.114246",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -1021,6 +1021,29 @@
           "duration_secs": 6756,
           "avg_hr": 116,
           "max_hr": 163,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i156782902",
+      "date": "2026-06-12",
+      "type": "Ride",
+      "name": "Bourg-Saint-Maurice Cyclisme",
+      "interval_summary": [
+        "1x 6h 136bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9
+        },
+        {
+          "type": "WORK",
+          "label": "21627s@136bpm",
+          "duration_secs": 21627,
+          "avg_hr": 136,
+          "max_hr": 188,
           "zone": 1
         }
       ]
