@@ -1,29 +1,10 @@
 {
-  "generated_at": "2026-06-13T23:33:18.825451",
+  "generated_at": "2026-06-14T02:00:59.794895",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i152770930",
-      "date": "2026-05-30",
-      "type": "Ride",
-      "name": "Autrans-M\u00e9audre en Vercors Cyclisme",
-      "interval_summary": [
-        "1x 4h34m 97bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "16490s@97bpm",
-          "duration_secs": 16490,
-          "avg_hr": 97,
-          "max_hr": 170,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i153102269",
       "date": "2026-05-31",
