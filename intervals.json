@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T18:08:29.775246",
+  "generated_at": "2026-06-24T20:09:19.091895",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -584,6 +584,27 @@
           "avg_hr": 129,
           "max_hr": 190,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i160081083",
+      "date": "2026-06-24",
+      "type": "Ride",
+      "name": "Lyon Cyclisme sur route",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 4965,
+          "avg_power": 175,
+          "max_power": 904,
+          "avg_hr": 140,
+          "max_hr": 182,
+          "avg_cadence": 86.344315,
+          "zone": 2,
+          "training_load": 52.812862,
+          "decoupling": 7.1265917
         }
       ]
     }
