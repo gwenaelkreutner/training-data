@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-05T21:03:40.936424",
+  "generated_at": "2026-07-05T22:13:39.204815",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -337,6 +337,25 @@
           "duration_secs": 20889,
           "avg_hr": 111,
           "max_hr": 176,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i163043821",
+      "date": "2026-07-05",
+      "type": "Ride",
+      "name": "Vars Cyclisme",
+      "interval_summary": [
+        "1x 6h25m 114bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "23121s@114bpm",
+          "duration_secs": 23121,
+          "avg_hr": 114,
+          "max_hr": 168,
           "zone": 1
         }
       ]
