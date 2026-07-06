@@ -1,29 +1,10 @@
 {
-  "generated_at": "2026-07-05T23:30:07.749556",
+  "generated_at": "2026-07-06T01:19:04.074005",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i159362381",
-      "date": "2026-06-21",
-      "type": "Ride",
-      "name": "La Clusaz Cyclisme",
-      "interval_summary": [
-        "1x 6h8m 105bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "22094s@105bpm",
-          "duration_secs": 22094,
-          "avg_hr": 105,
-          "max_hr": 162,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i160081083",
       "date": "2026-06-24",
