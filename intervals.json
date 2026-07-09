@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T20:20:26.785519",
+  "generated_at": "2026-07-09T21:58:49.568773",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -495,6 +495,54 @@
           "zone": 1,
           "training_load": 17.38811,
           "decoupling": 12.773225
+        }
+      ]
+    },
+    {
+      "activity_id": "i164296023",
+      "date": "2026-07-09",
+      "type": "Ride",
+      "name": "Tassin-la-Demi-Lune Cyclisme sur route",
+      "interval_summary": [
+        "1x 34s 477w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 7211,
+          "avg_power": 97,
+          "max_power": 707,
+          "avg_hr": 110,
+          "max_hr": 160,
+          "avg_cadence": 62.466785,
+          "zone": 1,
+          "training_load": 47.189465,
+          "decoupling": -0.08404622
+        },
+        {
+          "type": "WORK",
+          "label": "34s@477w84rpm",
+          "duration_secs": 34,
+          "avg_power": 477,
+          "max_power": 613,
+          "avg_hr": 150,
+          "max_hr": 167,
+          "avg_cadence": 84.05882,
+          "zone": 7,
+          "training_load": 1.8057979,
+          "decoupling": 20.483624
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2265,
+          "avg_power": 62,
+          "max_power": 403,
+          "avg_hr": 103,
+          "max_hr": 168,
+          "avg_cadence": 52.41446,
+          "zone": 1,
+          "training_load": 13.712247,
+          "decoupling": 18.313087
         }
       ]
     }
