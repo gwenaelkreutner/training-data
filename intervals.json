@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-12T16:29:42.634289",
+  "generated_at": "2026-07-12T17:36:52.529432",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -513,6 +513,25 @@
           "duration_secs": 10169,
           "avg_hr": 99,
           "max_hr": 168,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i165059926",
+      "date": "2026-07-12",
+      "type": "Ride",
+      "name": "La Thuile Cyclisme",
+      "interval_summary": [
+        "1x 6h50m 117bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "24606s@117bpm",
+          "duration_secs": 24606,
+          "avg_hr": 117,
+          "max_hr": 185,
           "zone": 1
         }
       ]
