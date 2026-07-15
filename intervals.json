@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T08:30:10.238728",
+  "generated_at": "2026-07-15T10:24:18.672607",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -452,6 +452,63 @@
           "duration_secs": 24606,
           "avg_hr": 117,
           "max_hr": 185,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i165887830",
+      "date": "2026-07-14",
+      "type": "Ride",
+      "name": "Valsavarenche Cyclisme",
+      "interval_summary": [
+        "1x 7h40m 126bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "27655s@126bpm",
+          "duration_secs": 27655,
+          "avg_hr": 126,
+          "max_hr": 174,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i165886106",
+      "date": "2026-07-13",
+      "type": "Ride",
+      "name": "Cogne Cyclisme",
+      "interval_summary": [
+        "1x 2h55m 107bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "10554s@107bpm",
+          "duration_secs": 10554,
+          "avg_hr": 107,
+          "max_hr": 167,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i165885599",
+      "date": "2026-07-13",
+      "type": "Ride",
+      "name": "Gressan Cyclisme",
+      "interval_summary": [
+        "1x 4h43m 96bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "16996s@96bpm",
+          "duration_secs": 16996,
+          "avg_hr": 96,
+          "max_hr": 149,
           "zone": 1
         }
       ]
