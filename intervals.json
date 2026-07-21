@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T18:00:20.803107",
+  "generated_at": "2026-07-21T19:51:43.614912",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -342,6 +342,54 @@
           "avg_hr": 115,
           "max_hr": 160,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i167841554",
+      "date": "2026-07-21",
+      "type": "Ride",
+      "name": "Caluire-et-Cuire Cyclisme sur route",
+      "interval_summary": [
+        "1x 10s 565w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5351,
+          "avg_power": 168,
+          "max_power": 805,
+          "avg_hr": 130,
+          "max_hr": 164,
+          "avg_cadence": 83.73179,
+          "zone": 2,
+          "training_load": 56.788387,
+          "decoupling": -0.20257634
+        },
+        {
+          "type": "WORK",
+          "label": "10s@565w86rpm",
+          "duration_secs": 10,
+          "avg_power": 565,
+          "max_power": 839,
+          "avg_hr": 146,
+          "max_hr": 155,
+          "avg_cadence": 86.2,
+          "zone": 7,
+          "training_load": 0.11182455,
+          "decoupling": 2.8052678
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1654,
+          "avg_power": 127,
+          "max_power": 646,
+          "avg_hr": 126,
+          "max_hr": 163,
+          "avg_cadence": 60.156933,
+          "zone": 1,
+          "training_load": 15.471013,
+          "decoupling": -15.238587
         }
       ]
     }
