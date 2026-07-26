@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-26T00:13:48.192515",
+    "last_updated": "2026-07-26T03:59:43.949745",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.108"
@@ -141,9 +141,9 @@
   },
   "history": {
     "available": true,
-    "last_generated": "2026-06-07",
-    "age_days": 48,
-    "total_months": 13,
+    "last_generated": "2026-07-26",
+    "age_days": 0,
+    "total_months": 15,
     "history_confidence": "high"
   },
   "summary": {
@@ -549,12 +549,13 @@
       "phase": "Base",
       "confidence": "medium",
       "reason_codes": [
+        "PHASE_TRANSITION_Deload_TO_Base",
         "NO_PLANNED_WORKOUTS"
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": null,
-          "acwr_trend": null,
+          "ctl_slope": -1.5,
+          "acwr_trend": "falling",
           "hard_day_pattern": 1.3,
           "weeks_available": 4
         },
@@ -571,13 +572,14 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": null,
+      "previous_phase": "Deload",
       "phase_duration_weeks": 1,
       "dossier_declared": null,
       "dossier_agreement": null
     },
     "phase_detected": "Base",
     "phase_triggers": [
+      "PHASE_TRANSITION_Deload_TO_Base",
       "NO_PLANNED_WORKOUTS"
     ],
     "seasonal_context": "Peak Race Season",
@@ -601,7 +603,7 @@
     "p_max": 1097,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-26T00:13:48.191907",
+    "calculation_timestamp": "2026-07-26T03:59:43.948834",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
