@@ -1,29 +1,10 @@
 {
-  "generated_at": "2026-07-25T23:02:19.484323",
+  "generated_at": "2026-07-26T00:13:48.189997",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i164795533",
-      "date": "2026-07-11",
-      "type": "Ride",
-      "name": "Saint-Gervais-les-Bains Cyclisme",
-      "interval_summary": [
-        "1x 2h49m 99bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "10169s@99bpm",
-          "duration_secs": 10169,
-          "avg_hr": 99,
-          "max_hr": 168,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i165059926",
       "date": "2026-07-12",
