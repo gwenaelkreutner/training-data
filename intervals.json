@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-13T12:26:52.309753",
+  "generated_at": "2026-08-13T13:59:31.905685",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -227,6 +227,54 @@
           "zone": 2,
           "training_load": 54.961025,
           "decoupling": 2.8774147
+        }
+      ]
+    },
+    {
+      "activity_id": "i175458925",
+      "date": "2026-08-13",
+      "type": "Ride",
+      "name": "Ch\u00e2tel-Saint-Germain Cyclisme sur route",
+      "interval_summary": [
+        "1x 17s 627w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2315,
+          "avg_power": 179,
+          "max_power": 622,
+          "avg_hr": 146,
+          "max_hr": 170,
+          "avg_cadence": 84.194786,
+          "zone": 2,
+          "training_load": 30.42674,
+          "decoupling": 5.660852
+        },
+        {
+          "type": "WORK",
+          "label": "17s@627w90rpm",
+          "duration_secs": 17,
+          "avg_power": 627,
+          "max_power": 825,
+          "avg_hr": 166,
+          "max_hr": 179,
+          "avg_cadence": 90.23529,
+          "zone": 7,
+          "training_load": 0.7480595,
+          "decoupling": 14.4307995
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1096,
+          "avg_power": 170,
+          "max_power": 489,
+          "avg_hr": 154,
+          "max_hr": 182,
+          "avg_cadence": 83.90876,
+          "zone": 2,
+          "training_load": 15.065113,
+          "decoupling": 0.71724457
         }
       ]
     }
