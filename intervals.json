@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T07:27:56.387050",
+  "generated_at": "2026-08-30T13:13:03.599557",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -569,6 +569,41 @@
           "duration_secs": 5,
           "avg_hr": 104,
           "max_hr": 105,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i181307876",
+      "date": "2026-08-30",
+      "type": "MountainBikeRide",
+      "name": "Beaufort VTT",
+      "interval_summary": [
+        "1x 1h51m 121bpm",
+        "1x 1h43m 106bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "6669s@121bpm",
+          "duration_secs": 6669,
+          "avg_hr": 121,
+          "max_hr": 169,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "6191s@106bpm",
+          "duration_secs": 6191,
+          "avg_hr": 106,
+          "max_hr": 174,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 100,
+          "max_hr": 101,
           "zone": 1
         }
       ]
