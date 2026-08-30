@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T17:33:24.315178",
+  "generated_at": "2026-08-30T20:02:41.631115",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -604,6 +604,32 @@
           "duration_secs": 2,
           "avg_hr": 100,
           "max_hr": 101,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i181458622",
+      "date": "2026-08-30",
+      "type": "MountainBikeRide",
+      "name": "Hauteluce VTT",
+      "interval_summary": [
+        "1x 2h54m 124bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "10492s@124bpm",
+          "duration_secs": 10492,
+          "avg_hr": 124,
+          "max_hr": 190,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 107,
+          "max_hr": 107,
           "zone": 1
         }
       ]
