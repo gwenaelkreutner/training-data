@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T14:54:53.710905",
+  "generated_at": "2026-08-31T20:41:59.344213",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -556,6 +556,58 @@
           "duration_secs": 1,
           "avg_hr": 107,
           "max_hr": 107,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i181768973",
+      "date": "2026-08-31",
+      "type": "MountainBikeRide",
+      "name": "Landry VTT",
+      "interval_summary": [
+        "1x 1h37m 111bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5823s@111bpm",
+          "duration_secs": 5823,
+          "avg_hr": 111,
+          "max_hr": 153,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 81,
+          "max_hr": 81,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i181768350",
+      "date": "2026-08-31",
+      "type": "MountainBikeRide",
+      "name": "Landry VTT",
+      "interval_summary": [
+        "1x 4h15m 100bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "15306s@100bpm",
+          "duration_secs": 15306,
+          "avg_hr": 100,
+          "max_hr": 155,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 117,
+          "max_hr": 117,
           "zone": 1
         }
       ]
