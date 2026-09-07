@@ -1,84 +1,10 @@
 {
-  "generated_at": "2026-09-06T23:00:00.031234",
+  "generated_at": "2026-09-07T00:53:26.215534",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i178830994",
-      "date": "2026-08-23",
-      "type": "Ride",
-      "name": "Ch\u00e2tel-Saint-Germain Cyclisme sur route",
-      "interval_summary": [
-        "1x 5m25s 226w",
-        "1x 3m20s 250w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 387,
-          "avg_power": 167,
-          "max_power": 351,
-          "avg_hr": 126,
-          "max_hr": 151,
-          "avg_cadence": 74.27559,
-          "zone": 2,
-          "training_load": 4.8605084,
-          "decoupling": 23.604479
-        },
-        {
-          "type": "WORK",
-          "label": "325s@226w96rpm",
-          "duration_secs": 325,
-          "avg_power": 226,
-          "max_power": 386,
-          "avg_hr": 153,
-          "max_hr": 160,
-          "avg_cadence": 96.129234,
-          "zone": 3,
-          "training_load": 5.3381968,
-          "decoupling": 1.5850661
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4783,
-          "avg_power": 192,
-          "max_power": 601,
-          "avg_hr": 142,
-          "max_hr": 171,
-          "avg_cadence": 89.233116,
-          "zone": 2,
-          "training_load": 67.04036,
-          "decoupling": -0.8203479
-        },
-        {
-          "type": "WORK",
-          "label": "200s@250w81rpm",
-          "duration_secs": 200,
-          "avg_power": 250,
-          "max_power": 338,
-          "avg_hr": 154,
-          "max_hr": 161,
-          "avg_cadence": 80.92,
-          "zone": 3,
-          "training_load": 4.030189,
-          "decoupling": -0.08925752
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5661,
-          "avg_power": 181,
-          "max_power": 540,
-          "avg_hr": 145,
-          "max_hr": 171,
-          "avg_cadence": 80.864006,
-          "zone": 2,
-          "training_load": 72.76402,
-          "decoupling": 5.3484173
-        }
-      ]
-    },
     {
       "activity_id": "i179741794",
       "date": "2026-08-25",
