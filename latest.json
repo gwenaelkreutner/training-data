@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-21T18:55:09.765389",
+    "last_updated": "2026-09-21T22:29:53.827367",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.108"
@@ -166,7 +166,7 @@
       "atl": 18.99,
       "tsb": 14.16,
       "ramp_rate": -2.72,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 275.3,
@@ -538,18 +538,12 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 2,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-09-21"
-      ],
-      "completed_dates": [
-        "2026-09-19",
-        "2026-09-20"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Recovery",
@@ -565,13 +559,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 2.17,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.33,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -607,13 +601,13 @@
     "p_max": 1059,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-21T18:55:09.764761",
+    "calculation_timestamp": "2026-09-21T22:29:53.826754",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 2,
       "activities_28d": 11,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2623,25 +2617,11 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [
-    {
-      "id": 137834594,
-      "date": "2026-09-21",
-      "name": "Intervalles 4\u00d74min Z5 (VO2 Max)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 59,
-      "duration_hours": 1.05,
-      "duration_formatted": "1h3m",
-      "workout_summary": "20m @159W | 4\u00d74m @291W / 3m rec | 15m @159W",
-      "has_terrain": false,
-      "description": "Warmup\n- 20m 55%\n\nMain set\n4x\n- 4m 95-106%\n- 3m 55%\n\nCooldown\n- 15m 55%"
-    }
-  ],
+  "planned_workouts": [],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 0,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
