@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-22T11:57:31.987548",
+    "last_updated": "2026-09-22T16:46:54.665912",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.108"
@@ -166,7 +166,7 @@
       "atl": 16.47,
       "tsb": 15.9,
       "ramp_rate": -2.66,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
       "eftp": 275.0,
@@ -538,18 +538,12 @@
       },
       "dfa_a1_profile": null
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 2,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-09-22"
-      ],
-      "completed_dates": [
-        "2026-09-19",
-        "2026-09-20"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Recovery",
@@ -565,13 +559,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.44,
+          "planned_tss_delta": null,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -607,13 +601,13 @@
     "p_max": 1058,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-22T11:57:31.986868",
+    "calculation_timestamp": "2026-09-22T16:46:54.664985",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 2,
       "activities_28d": 10,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -2494,28 +2488,14 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [
-    {
-      "id": 138021046,
-      "date": "2026-09-22",
-      "name": "Endurance Z2 (Endurance)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 31,
-      "duration_hours": 0.73,
-      "duration_formatted": "44m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "- 44m 55-75%"
-    }
-  ],
+  "planned_workouts": [],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 1
+    "bail_no_match": 0
   },
   "weekly_summary": {
     "total_training_hours": 3.9,
