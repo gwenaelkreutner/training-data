@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T15:48:50.856289",
+  "generated_at": "2026-09-27T19:37:02.879307",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -161,6 +161,27 @@
           "zone": 1,
           "training_load": 44.569443,
           "decoupling": 16.36055
+        }
+      ]
+    },
+    {
+      "activity_id": "i190929641",
+      "date": "2026-09-27",
+      "type": "Ride",
+      "name": "Caluire-et-Cuire Cyclisme sur route",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 10545,
+          "avg_power": 105,
+          "max_power": 632,
+          "avg_hr": 120,
+          "max_hr": 170,
+          "avg_cadence": 66.42054,
+          "zone": 1,
+          "training_load": 68.84803,
+          "decoupling": -2.717194
         }
       ]
     }
