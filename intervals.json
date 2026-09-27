@@ -1,49 +1,10 @@
 {
-  "generated_at": "2026-09-26T22:07:47.291022",
+  "generated_at": "2026-09-27T00:37:53.065879",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i186758152",
-      "date": "2026-09-12",
-      "type": "VirtualRide",
-      "name": "Zwift - Pacer Group Ride with Coco",
-      "interval_summary": [
-        "1x 16s 563w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3108,
-          "avg_power": 186,
-          "max_power": 535,
-          "avg_cadence": 89.063065,
-          "zone": 2,
-          "training_load": 43.986885
-        },
-        {
-          "type": "WORK",
-          "label": "16s@563w104rpm",
-          "duration_secs": 16,
-          "avg_power": 563,
-          "max_power": 629,
-          "avg_cadence": 103.875,
-          "zone": 7,
-          "training_load": 0.6963615
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 223,
-          "avg_power": 153,
-          "max_power": 505,
-          "avg_cadence": 73.8565,
-          "zone": 1,
-          "training_load": 4.577956
-        }
-      ]
-    },
     {
       "activity_id": "i188314121",
       "date": "2026-09-19",
