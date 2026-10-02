@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-02T14:09:19.639357",
+    "last_updated": "2026-10-02T19:20:11.139974",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.108"
@@ -172,13 +172,13 @@
       "atl": 22.86,
       "tsb": 9.32,
       "ramp_rate": -0.05,
-      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
+      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 273.9,
-      "w_prime": 23131,
+      "eftp": 273.7,
+      "w_prime": 23107,
       "w_prime_kj": 23.1,
-      "p_max": 1054,
+      "p_max": 1053,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -537,7 +537,7 @@
           },
           "coverage_ratio": 1.0,
           "ftp_used": 290,
-          "w_prime_used": 23131,
+          "w_prime_used": 23107,
           "ftp_staleness_days": 158,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -559,24 +559,19 @@
         "trailing_by_sport": {}
       }
     },
-    "consistency_index": 0.0,
+    "consistency_index": null,
     "consistency_details": {
-      "planned_days": 1,
+      "planned_days": 0,
       "completed_days": 3,
       "matched_days": 0,
-      "planned_dates": [
-        "2026-10-02"
-      ],
-      "completed_dates": [
-        "2026-09-26",
-        "2026-09-27",
-        "2026-09-29"
-      ]
+      "note": "No planned workouts in period"
     },
     "phase_detection": {
       "phase": "Base",
       "confidence": "medium",
-      "reason_codes": [],
+      "reason_codes": [
+        "NO_PLANNED_WORKOUTS"
+      ],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -585,13 +580,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.27,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
-          "current_week_hard_days_total": 1,
+          "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -603,7 +598,9 @@
       "dossier_agreement": null
     },
     "phase_detected": "Base",
-    "phase_triggers": [],
+    "phase_triggers": [
+      "NO_PLANNED_WORKOUTS"
+    ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
       "current_ftp": null,
@@ -619,19 +616,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 273.9,
-    "w_prime": 23131,
+    "eftp": 273.7,
+    "w_prime": 23107,
     "w_prime_kj": 23.1,
-    "p_max": 1054,
+    "p_max": 1053,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-02T14:09:19.638225",
+    "calculation_timestamp": "2026-10-02T19:20:11.139037",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
       "activities_7d": 3,
       "activities_28d": 8,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 0,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -1851,25 +1848,11 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [
-    {
-      "id": 140769010,
-      "date": "2026-10-02",
-      "name": "Intervalles 3\u00d725min Z3 (Tempo)",
-      "type": "WORKOUT",
-      "sport_type": "Ride",
-      "planned_tss": 110,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
-      "workout_summary": "15m @159W | 3\u00d725m @234W / 5m rec | 15m @159W",
-      "has_terrain": false,
-      "description": "Warmup\n- 15m 55%\n\nMain set\n3x\n- 25m 75-87%\n- 5m 55%\n\nCooldown\n- 15m 55%"
-    }
-  ],
+  "planned_workouts": [],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 0,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 0
