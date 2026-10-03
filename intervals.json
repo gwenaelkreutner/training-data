@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T07:57:56.611418",
+  "generated_at": "2026-10-03T13:16:47.487823",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -243,6 +243,68 @@
           "total_secs": 4046,
           "valid_pct": 48.1,
           "artifact_rate_avg": 8.59,
+          "sufficient": false
+        }
+      }
+    },
+    {
+      "activity_id": "i192939528",
+      "date": "2026-10-03",
+      "type": "Ride",
+      "name": "Caluire-et-Cuire Cyclisme sur route",
+      "interval_summary": [
+        "1x 2m 264w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2895,
+          "avg_power": 136,
+          "max_power": 590,
+          "avg_cadence": 73.237816,
+          "zone": 1,
+          "training_load": 26.878618,
+          "avg_dfa_a1": 1.3852088
+        },
+        {
+          "type": "WORK",
+          "label": "120s@264w73rpm",
+          "duration_secs": 120,
+          "avg_power": 264,
+          "max_power": 340,
+          "avg_cadence": 72.73333,
+          "zone": 4,
+          "training_load": 2.5772889,
+          "avg_dfa_a1": 1.3852088
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1571,
+          "avg_power": 124,
+          "max_power": 633,
+          "avg_cadence": 64.12853,
+          "zone": 1,
+          "training_load": 10.762909,
+          "avg_dfa_a1": 1.3852088
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 0,
+          "total_secs": 4567,
+          "valid_pct": 0.0,
+          "artifact_rate_avg": 6.17,
           "sufficient": false
         }
       }
