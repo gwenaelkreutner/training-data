@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T18:56:06.291439",
+  "generated_at": "2026-10-14T22:07:47.285695",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -372,6 +372,79 @@
           "sufficient": false
         }
       }
+    },
+    {
+      "activity_id": "i197379691",
+      "date": "2026-10-14",
+      "type": "Ride",
+      "name": "Caluire-et-Cuire Cyclisme sur route",
+      "interval_summary": [
+        "1x 16s 559w",
+        "1x 13s 441w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2660,
+          "avg_power": 171,
+          "max_power": 570,
+          "avg_hr": 145,
+          "max_hr": 170,
+          "avg_cadence": 84.61147,
+          "zone": 2,
+          "training_load": 31.132614,
+          "decoupling": 1.1146972
+        },
+        {
+          "type": "WORK",
+          "label": "16s@559w85rpm",
+          "duration_secs": 16,
+          "avg_power": 559,
+          "max_power": 636,
+          "avg_hr": 171,
+          "max_hr": 182,
+          "avg_cadence": 85.3125,
+          "zone": 7,
+          "training_load": 0.69253004,
+          "decoupling": 11.21793
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 902,
+          "avg_power": 172,
+          "max_power": 539,
+          "avg_hr": 149,
+          "max_hr": 187,
+          "avg_cadence": 84.55654,
+          "zone": 2,
+          "training_load": 13.138526,
+          "decoupling": -6.0761333
+        },
+        {
+          "type": "WORK",
+          "label": "13s@441w83rpm",
+          "duration_secs": 13,
+          "avg_power": 441,
+          "max_power": 481,
+          "avg_hr": 158,
+          "max_hr": 169,
+          "avg_cadence": 83.0,
+          "zone": 7,
+          "training_load": 0.42605528,
+          "decoupling": 1.4163519
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1689,
+          "avg_power": 142,
+          "max_power": 640,
+          "avg_hr": 138,
+          "max_hr": 174,
+          "avg_cadence": 72.33144,
+          "zone": 1,
+          "training_load": 14.4756775
+        }
+      ]
     }
   ]
 }
