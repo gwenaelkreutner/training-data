@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T09:26:31.719361",
+  "generated_at": "2026-10-18T13:27:41.085983",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -402,6 +402,177 @@
           "zone": 1,
           "training_load": 83.40197,
           "decoupling": 0.5624093
+        }
+      ]
+    },
+    {
+      "activity_id": "i198617280",
+      "date": "2026-10-18",
+      "type": "Ride",
+      "name": "Caluire-et-Cuire Cyclisme sur route",
+      "interval_summary": [
+        "1x 3m17s 221w",
+        "1x 16m53s 222w",
+        "1x 11s 607w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 9126,
+          "avg_power": 102,
+          "max_power": 614,
+          "avg_hr": 121,
+          "max_hr": 181,
+          "avg_cadence": 72.49349,
+          "zone": 1,
+          "training_load": 73.116234,
+          "decoupling": 21.875748,
+          "avg_dfa_a1": 1.0936545
+        },
+        {
+          "type": "WORK",
+          "label": "197s@221w90rpm",
+          "duration_secs": 197,
+          "avg_power": 221,
+          "max_power": 347,
+          "avg_hr": 164,
+          "max_hr": 170,
+          "avg_cadence": 90.010155,
+          "zone": 3,
+          "training_load": 3.2068133,
+          "decoupling": -2.9507372,
+          "avg_dfa_a1": 1.0903645
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1109,
+          "avg_power": 150,
+          "max_power": 646,
+          "avg_hr": 149,
+          "max_hr": 184,
+          "avg_cadence": 79.61822,
+          "zone": 1,
+          "training_load": 13.746249,
+          "decoupling": 4.985787,
+          "avg_dfa_a1": 1.0903645
+        },
+        {
+          "type": "WORK",
+          "label": "1013s@222w91rpm",
+          "duration_secs": 1013,
+          "avg_power": 222,
+          "max_power": 350,
+          "avg_hr": 169,
+          "max_hr": 182,
+          "avg_cadence": 90.7668,
+          "zone": 3,
+          "training_load": 16.489857,
+          "decoupling": -0.18628332,
+          "avg_dfa_a1": 1.0903645
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3084,
+          "avg_power": 75,
+          "max_power": 695,
+          "avg_hr": 130,
+          "max_hr": 192,
+          "avg_cadence": 54.508244,
+          "zone": 1,
+          "training_load": 22.22218,
+          "decoupling": 12.252703,
+          "avg_dfa_a1": 1.0903645
+        },
+        {
+          "type": "WORK",
+          "label": "11s@607w95rpm",
+          "duration_secs": 11,
+          "avg_power": 607,
+          "max_power": 692,
+          "avg_hr": 142,
+          "max_hr": 160,
+          "avg_cadence": 95.36364,
+          "zone": 7,
+          "training_load": 0.14532964,
+          "decoupling": 6.767153,
+          "avg_dfa_a1": 1.0903645
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2717,
+          "avg_power": 63,
+          "max_power": 573,
+          "avg_hr": 128,
+          "max_hr": 173,
+          "avg_cadence": 48.23704,
+          "zone": 1,
+          "training_load": 15.306715,
+          "decoupling": 6.2700143,
+          "avg_dfa_a1": 1.0903645
+        }
+      ],
+      "dfa": {
+        "avg": 1.095,
+        "p25": 1.09,
+        "p50": 1.09,
+        "p75": 1.09,
+        "tiz_below_lt1": {
+          "secs": 16468,
+          "pct": 99.7,
+          "avg_hr": 125,
+          "avg_watts": 104
+        },
+        "tiz_lt1_transition": {
+          "secs": 42,
+          "pct": 0.3,
+          "avg_hr": 0,
+          "avg_watts": 0
+        },
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": {
+          "first_third_avg": 1.103,
+          "last_third_avg": 1.09,
+          "delta": -0.013,
+          "interpretable": true
+        },
+        "lt1_crossing": {
+          "secs_in_band": 126,
+          "avg_hr": 0,
+          "avg_watts": 0
+        },
+        "lt2_crossing": {
+          "secs_in_band": 0,
+          "avg_hr": null,
+          "avg_watts": null
+        },
+        "quality": {
+          "valid_secs": 16510,
+          "total_secs": 17255,
+          "valid_pct": 95.7,
+          "artifact_rate_avg": 3.28,
+          "sufficient": true
+        }
+      }
+    },
+    {
+      "activity_id": "i198614985",
+      "date": "2026-10-17",
+      "type": "Ride",
+      "name": "Caluire-et-Cuire Cyclisme sur route",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5525,
+          "avg_power": 36,
+          "max_power": 416,
+          "avg_hr": 92,
+          "max_hr": 142,
+          "avg_cadence": 47.652588,
+          "zone": 1,
+          "training_load": 14.472253,
+          "decoupling": -2.5172613
         }
       ]
     }
