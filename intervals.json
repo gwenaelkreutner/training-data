@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T14:25:43.356789",
+  "generated_at": "2026-10-20T18:37:33.072285",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -511,6 +511,85 @@
           "zone": 1,
           "training_load": 14.472253,
           "decoupling": -2.5172613
+        }
+      ]
+    },
+    {
+      "activity_id": "i199605728",
+      "date": "2026-10-20",
+      "type": "Ride",
+      "name": "Ch\u00e2tel-Saint-Germain - Endurance Z2 (Endurance)",
+      "interval_summary": [
+        "1x 11s 528w",
+        "1x 64s 343w",
+        "1x 2m46s 301w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 48,
+          "avg_power": 86,
+          "max_power": 317,
+          "avg_cadence": 44.129032,
+          "zone": 1,
+          "training_load": 0.039313316
+        },
+        {
+          "type": "WORK",
+          "label": "11s@528w85rpm",
+          "duration_secs": 11,
+          "avg_power": 528,
+          "max_power": 668,
+          "avg_cadence": 85.25,
+          "zone": 7,
+          "training_load": 0.17584886
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 536,
+          "avg_power": 181,
+          "max_power": 454,
+          "avg_cadence": 76.07836,
+          "zone": 2,
+          "training_load": 7.6593685
+        },
+        {
+          "type": "WORK",
+          "label": "64s@343w68rpm",
+          "duration_secs": 64,
+          "avg_power": 343,
+          "max_power": 405,
+          "avg_cadence": 67.96875,
+          "zone": 5,
+          "training_load": 2.2053957
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 713,
+          "avg_power": 129,
+          "max_power": 479,
+          "avg_cadence": 65.87377,
+          "zone": 1,
+          "training_load": 8.95489
+        },
+        {
+          "type": "WORK",
+          "label": "166s@301w97rpm",
+          "duration_secs": 166,
+          "avg_power": 301,
+          "max_power": 389,
+          "avg_cadence": 96.6265,
+          "zone": 4,
+          "training_load": 4.836403
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 638,
+          "avg_power": 139,
+          "max_power": 559,
+          "avg_cadence": 62.34797,
+          "zone": 1,
+          "training_load": 11.276803
         }
       ]
     }
