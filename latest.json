@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 0.59,
-      "total_training_formatted": "35m",
-      "total_activities": 1,
+      "total_training_hours": 0.84,
+      "total_training_formatted": "50m",
+      "total_activities": 2,
       "total_tss": 37
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-10-25T19:11:11.041685",
+    "last_updated": "2026-10-25T21:48:49.400910",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.108"
@@ -159,14 +159,20 @@
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 0.59,
-    "total_activities": 1,
+    "total_duration_decimal_hours": 0.84,
+    "total_activities": 2,
     "by_activity_type": {
       "Ride": {
         "duration_decimal_hours": 0.59,
         "count": 1,
         "tss": 37,
         "distance_km": 14.6
+      },
+      "Yoga": {
+        "duration_decimal_hours": 0.25,
+        "count": 1,
+        "tss": 0,
+        "distance_km": 0.0
       }
     }
   },
@@ -653,12 +659,12 @@
     "p_max": 1036,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-10-25T19:11:11.040979",
+    "calculation_timestamp": "2026-10-25T21:48:49.400114",
     "data_quality": {
       "hrv_data_points": 0,
       "rhr_data_points": 0,
-      "activities_7d": 1,
-      "activities_28d": 11,
+      "activities_7d": 2,
+      "activities_28d": 12,
       "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
@@ -667,6 +673,48 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i201629057",
+      "date": "2026-10-25T20:25:10",
+      "type": "Yoga",
+      "name": "Mobilit\u00e9 douce du dimanche soir",
+      "duration_hours": 0.25,
+      "distance_km": 0.0,
+      "tss": 0,
+      "intensity_factor": 0.0,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false,
+      "description": "Chat-vache, World's greatest stretch, Livre ouvert, Dead bug, Bird dog, Pigeon, Haut du dos, Respiration lente allong\u00e9\nDimanche soir, pas de grosse sortie r\u00e9cente (35 min lundi dernier) et TSB +10 : on garde une s\u00e9ance l\u00e9g\u00e8re pour entretenir hanches, dos et respiration avant la semaine.\nEffort ressenti : 3/10\nNote : \u00c7a serait bien de travailler les hanches ;) j\u2019avais eu une luxation de la hanche y\u2019a deux ans\nS\u00e9ance guid\u00e9e par Hermes (coach mobilit\u00e9)."
+    },
     {
       "id": "i199605728",
       "date": "2026-10-20T17:53:36",
@@ -2126,10 +2174,10 @@
     "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 0.59,
-    "total_training_formatted": "35m",
+    "total_training_hours": 0.84,
+    "total_training_formatted": "50m",
     "total_tss": 37,
-    "activities_count": 1,
+    "activities_count": 2,
     "avg_hrv": null,
     "avg_resting_hr": null
   },
