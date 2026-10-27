@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T16:14:49.040328",
+  "generated_at": "2026-10-27T20:46:26.133594",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -486,6 +486,167 @@
           "training_load": 8.729007
         }
       ]
+    },
+    {
+      "activity_id": "i202383806",
+      "date": "2026-10-27",
+      "type": "Ride",
+      "name": "Caluire-et-Cuire Cyclisme sur route",
+      "interval_summary": [
+        "1x 14s 452w",
+        "2x 19s 465w",
+        "1x 83s 287w",
+        "1x 2m21s 320w",
+        "1x 12s 745w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5239,
+          "avg_power": 101,
+          "max_power": 556,
+          "avg_cadence": 63.759495,
+          "zone": 1,
+          "training_load": 40.926765,
+          "avg_dfa_a1": 1.5721279
+        },
+        {
+          "type": "WORK",
+          "label": "14s@452w105rpm",
+          "duration_secs": 14,
+          "avg_power": 452,
+          "max_power": 525,
+          "avg_cadence": 104.5,
+          "zone": 7,
+          "training_load": 0.7105615,
+          "avg_dfa_a1": 1.6221044
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2490,
+          "avg_power": 123,
+          "max_power": 497,
+          "avg_cadence": 63.212997,
+          "zone": 1,
+          "training_load": 30.508865,
+          "avg_dfa_a1": 1.4178729
+        },
+        {
+          "type": "WORK",
+          "label": "19s@465w90rpm",
+          "duration_secs": 20,
+          "avg_power": 483,
+          "max_power": 630,
+          "avg_cadence": 77.15,
+          "zone": 7,
+          "training_load": 0.8656626,
+          "avg_dfa_a1": 1.6393417
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 128,
+          "avg_power": 169,
+          "max_power": 486,
+          "avg_cadence": 77.05469,
+          "zone": 2,
+          "training_load": 3.1740415,
+          "avg_dfa_a1": 1.4451191
+        },
+        {
+          "type": "WORK",
+          "label": "83s@287w99rpm",
+          "duration_secs": 83,
+          "avg_power": 287,
+          "max_power": 451,
+          "avg_cadence": 99.048195,
+          "zone": 4,
+          "training_load": 2.013345,
+          "avg_dfa_a1": 1.4011426
+        },
+        {
+          "type": "WORK",
+          "label": "141s@320w103rpm",
+          "duration_secs": 141,
+          "avg_power": 320,
+          "max_power": 432,
+          "avg_cadence": 103.35461,
+          "zone": 5,
+          "training_load": 4.7689257,
+          "avg_dfa_a1": 0.8129608
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3136,
+          "avg_power": 101,
+          "max_power": 627,
+          "avg_cadence": 70.10606,
+          "zone": 1,
+          "training_load": 29.60126,
+          "avg_dfa_a1": 1.3132864
+        },
+        {
+          "type": "WORK",
+          "label": "19s@465w90rpm",
+          "duration_secs": 18,
+          "avg_power": 446,
+          "max_power": 563,
+          "avg_cadence": 103.388885,
+          "zone": 7,
+          "training_load": 0.45617718,
+          "avg_dfa_a1": 0.8539667
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 255,
+          "avg_power": 166,
+          "max_power": 614,
+          "avg_cadence": 77.564705,
+          "zone": 2,
+          "training_load": 3.436722,
+          "avg_dfa_a1": 0.76333386
+        },
+        {
+          "type": "WORK",
+          "label": "12s@745w94rpm",
+          "duration_secs": 12,
+          "avg_power": 745,
+          "max_power": 883,
+          "avg_cadence": 94.166664,
+          "zone": 7,
+          "training_load": 0.6121641,
+          "avg_dfa_a1": 1.4137611
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2822,
+          "avg_power": 69,
+          "max_power": 608,
+          "avg_cadence": 49.927643,
+          "zone": 1,
+          "training_load": 19.00195,
+          "avg_dfa_a1": 1.5510551
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 9833,
+          "total_secs": 14301,
+          "valid_pct": 68.8,
+          "artifact_rate_avg": 4.2,
+          "sufficient": false
+        }
+      }
     }
   ]
 }
