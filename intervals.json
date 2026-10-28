@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T18:44:14.326382",
+  "generated_at": "2026-10-28T22:53:22.853201",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -545,6 +545,53 @@
           "total_secs": 14301,
           "valid_pct": 68.8,
           "artifact_rate_avg": 4.2,
+          "sufficient": false
+        }
+      }
+    },
+    {
+      "activity_id": "i202893025",
+      "date": "2026-10-28",
+      "type": "MountainBikeRide",
+      "name": "Puy-Sani\u00e8res VTT",
+      "interval_summary": [
+        "1x 1h36m 142bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "5764s@142bpm",
+          "duration_secs": 5764,
+          "avg_hr": 142,
+          "max_hr": 172,
+          "zone": 1,
+          "avg_dfa_a1": 1.2829912
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 114,
+          "max_hr": 114,
+          "zone": 1
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 251,
+          "total_secs": 5764,
+          "valid_pct": 4.4,
+          "artifact_rate_avg": 0.0,
           "sufficient": false
         }
       }
