@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T15:34:28.149641",
+  "generated_at": "2026-10-29T20:38:39.947403",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -519,6 +519,54 @@
           "total_secs": 5764,
           "valid_pct": 4.4,
           "artifact_rate_avg": 0.0,
+          "sufficient": false
+        }
+      }
+    },
+    {
+      "activity_id": "i203323772",
+      "date": "2026-10-29",
+      "type": "Ride",
+      "name": "Guillestre Cyclisme sur route",
+      "interval_summary": [
+        "1x 4h1m 135bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "14479s@135bpm",
+          "duration_secs": 14479,
+          "avg_hr": 135,
+          "max_hr": 165,
+          "zone": 1,
+          "avg_dfa_a1": 1.0959249
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2,
+          "avg_hr": 127,
+          "max_hr": 128,
+          "zone": 1,
+          "avg_dfa_a1": 1.502589
+        }
+      ],
+      "dfa": {
+        "avg": null,
+        "p25": null,
+        "p50": null,
+        "p75": null,
+        "tiz_below_lt1": null,
+        "tiz_lt1_transition": null,
+        "tiz_transition_lt2": null,
+        "tiz_above_lt2": null,
+        "drift": null,
+        "lt1_crossing": null,
+        "lt2_crossing": null,
+        "quality": {
+          "valid_secs": 9996,
+          "total_secs": 14480,
+          "valid_pct": 69.0,
+          "artifact_rate_avg": 2.53,
           "sufficient": false
         }
       }
