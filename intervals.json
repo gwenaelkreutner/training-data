@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T02:08:45.059654",
+  "generated_at": "2026-11-15T09:28:11.158611",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -1065,6 +1065,32 @@
           "zone": 1,
           "training_load": 6.96937,
           "decoupling": -18.835335
+        }
+      ]
+    },
+    {
+      "activity_id": "i210237334",
+      "date": "2026-11-15",
+      "type": "Ride",
+      "name": "Lyon Cyclisme",
+      "interval_summary": [
+        "1x 18m42s 133bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1122s@133bpm",
+          "duration_secs": 1122,
+          "avg_hr": 133,
+          "max_hr": 149,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 5,
+          "avg_hr": 117,
+          "max_hr": 118,
+          "zone": 1
         }
       ]
     }
