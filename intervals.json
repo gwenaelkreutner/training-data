@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T09:28:11.158611",
+  "generated_at": "2026-11-15T16:31:13.073564",
   "version": "3.108",
   "script_hash": "41b49b1747e6",
   "scan_hours": 72,
@@ -1090,6 +1090,25 @@
           "duration_secs": 5,
           "avg_hr": 117,
           "max_hr": 118,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i210423901",
+      "date": "2026-11-15",
+      "type": "Ride",
+      "name": "P\u00e9lussin Cyclisme sur route",
+      "interval_summary": [
+        "1x 4h8m 136bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "14918s@136bpm",
+          "duration_secs": 14918,
+          "avg_hr": 136,
+          "max_hr": 168,
           "zone": 1
         }
       ]
